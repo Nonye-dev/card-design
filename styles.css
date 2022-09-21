@@ -1,5 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 #container{
-    min-width: 200px;
-    min-height: 200px;
-    box-shadow: 5px 12px 4px 10px rgba(rgba(29, 26, 26, 0.301));
+    width: 700px;
+    height: 470px;
+    box-shadow:  2px 50px 30px -6px rgba(0, 0, 0, 0.37);
+    margin: 0 auto;
+    overflow: hidden;
+    box-shadow:  4px 12px 30px 3px rgba(16, 34, 34, 0.11);
+    border-radius: 12px
+}
+
+body(
+    background
+)
+
+#top-section{
+    min-height: 45%;   
+    min-width: 100%;
+    background-color: white;
+    padding: 26px;;
+    
+}
+
+
+
+.left{
+    width: 50%;
+    display: inline-block;
+    background: #2ab2af;
+    height: 100%;
+    vertical-align: top;
+    padding: 21px 30px 30px 30px;
+    color: azure;
+}
+
+
+.right{
+    width: 50%;
+    height: 100%;
+    background: #50cac8;
+    display: inline-block;
+    padding: 21px 30px 30px 30px;
+}
+
+
+.right ul{
+  
+    color: whitesmoke;
+    font-size: 1rem;
+    list-style: none;
+    text-align: start;
+    padding: 0;
+    font-size: 0.98rem
+}
+
+
+.right h4{
+   
+    color: whitesmoke;
+    padding-left: 0px;
+    margin-bottom: 14px;
+}
+
+#top-section h2{
+    color: #2ab2af;
+    margin-bottom: 19px;
+
+}
+
+#top-section h4{
+    color: #c0df34;
+    padding-bottom: 9PX                                                                         ;
+}
+
+
+#top-section p{
+    color: #626c7c;
+}
+
+.left button{
+    padding: 16px 8em;
+    margin-top: 20px;
+    background-color: #c0df34;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    color: white;
+    transition: all 1s;
+    font-weight: 700;
+  
+}
+
+
+.left button:hover{
+    cursor: pointer;
+    background-color: #98b418;
+
+}
+
+
+.bill{
+    font-size: 1.9rem;
+    font-weight: 700;
+    display: inline-block;
+    padding-right: 1px;
+    margin-bottom: 32px;
+    
+}
+
+.left h4{
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.per-month{
+    display:inline-block;
+    position: relative;
+    top: -10px;
+    opacity: 0.9;
 }
