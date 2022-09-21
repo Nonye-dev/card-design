@@ -1,0 +1,5 @@
+#container{
+    min-width: 200px;
+    min-height: 200px;
+    box-shadow: 5px 12px 4px 10px rgba(rgba(29, 26, 26, 0.301));
+}
